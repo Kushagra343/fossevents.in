@@ -42,6 +42,15 @@ CACHES = {
         'LOCATION': ''
     }
 }
+DATABASES = {
+   'default': {
+       'ENGINE': 'django.db.backends.postgresql_psycopg2',
+       'NAME': 'vishaldb',
+       'USER': 'vishal',
+       
+     
+   }
+}
 
 # django-debug-toolbar
 # ------------------------------------------------------------------------------
